@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #48A6C3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-size: small;
+  font-weight: 400;
+  padding: .5em;
+  text-align: left;
+}
+
+h5 {
+  color: #344760;
+  text-align: left;
+  margin: 0;
+  padding: .5em;
+}
+
+.App {
+  display: flex;
+  padding: .5em;
+  height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  align-content: space-between;
+  margin: .25em;
+}
+
+.column {
+  flex: 0 1 auto;
+  background: #E8E9ED;
+  border-radius: .25em;
+  height: 95vh;
+  margin: .25em;
+  padding: 0;
+  position: relative;
+  width: 25%;
+}
+
+.createCard {
+  border-radius: .25em;
+  margin: .25em;
+}
+
+.item {
+  background: #FFFFFF;
+  border-radius: .2em;
+  margin: .25em;
+}
+
+
+#add {
+  background: #E8E9ED;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  color: #727E91;
+  position: absolute;
+  right:    0;
+  bottom:   0;
+  text-align: left;
+}
+
+#add:focus {
+  outline: none;
+}
+
+#newItem {
+  background-color: #52A246;
+  border: none;
+  border-radius: .2em;
+  color: #FFFFFF;
+  left: 0;
+  margin: .25em;
+  padding: 10px;
+}
+
+#exit {
+  background: #E8E9ED;
+  border: none;
+  color: #727E91;
+  margin-left: .25em;
+  font-size: medium;
+}
+
+#exit:focus {
+  outline: none;
+}
